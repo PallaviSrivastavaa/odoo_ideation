@@ -294,6 +294,7 @@ export default {
 	// Script dependencies to load
 	dependencies: [],
 
+
 	// Plugin objects to register and use for this presentation
 	plugins: []
 

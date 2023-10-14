@@ -13,11 +13,63 @@
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
 	</head>
-	<body>
+	<body style="background-color: #2B1001;">
 		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+			<div  class="slides">
+				<section><h1 style="color: pink; font-size: 45px;">Event certificate generation on Odoo </h1>
+					
+						<section>
+							<h1 style="color: pink; font-size: 45px;">Features</h1>
+							<ol>
+							<li>Default Template</li>
+							<li>Tracking and mailing</li>
+							</ol>
+						</section>
+		
+						
+						<section>
+							<img src="certificate generator.png" alt="path">
+							
+						</section>
+					<section>
+						<h2 style="color: pink; font-size: 45px;"> Dependencies</h2>	
+							<ol>
+								<li>pillow</li>
+								<li>smtplib</li>
+							</ol>
+					</section>
+				</section>
+
+			<section>
+				<section>
+					<h1 style="color: pink; font-size: 45px;">Other Ideas</h1>	
+				</section>
+				
+				<section>
+					<ul>
+					
+				<h1 style="color: rgb(182, 178, 240); font-size: 45px;">Business trip management system</h1>
+			</section>
+					<section>
+						<h1 style="color: pink; font-size: 45px;">New Features</h1>
+						<ol>
+						<li>Maps</li>
+						<li>business hotels suggestions</li>
+						</ol>
+					</section>
+					<section>
+						<h1 style="color: rgb(182, 178, 240); font-size: 45px;">Audio to text</h1>
+						
+					</section>
+					<section>
+						<h1 style="color: rgb(182, 178, 240); font-size: 45px;">Image generator</h1>
+					
+					</section>
+				</ul>
+			</section>
+			
+		</ul>
+
 			</div>
 		</div>
 
@@ -29,12 +81,23 @@
 			// More info about initialization & config:
 			// - https://revealjs.com/initialization/
 			// - https://revealjs.com/config/
+			Reveal.configure({ pdfMaxPagesPerSlide: 1 })
 			Reveal.initialize({
 				hash: true,
+				width: 960,
+  				height: 700,
 
+  // Factor of the display size that should remain empty around
+  // the content
+  					margin: 0.04,
+
+  // Bounds for smallest/largest possible scale to apply to content
+  				minScale: 0.2,
+  				maxScale: 2.0
 				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+				
 			});
+			
 		</script>
 	</body>
 </html>
